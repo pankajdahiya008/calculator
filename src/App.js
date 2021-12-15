@@ -1,17 +1,9 @@
-import './App.scss';
+import "./App.scss";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <p>Calculator</p>
-       <div className="App-controls">
-       <button>-</button>
-       <button>+</button>
-       <button>X</button>
-       </div>
-      </header>
-    </div>
+      <Header />
   );
 }
 

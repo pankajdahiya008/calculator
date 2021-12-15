@@ -1,19 +1,17 @@
-*{
+* {
   background-color: lightgrey;
 }
-.App-header{
-  margin: 5px;
+.App-header {
+  margin: 2px;
   display: flex;
-  justify-content: space-between;
-}
-.App-controls button{
-  border: none;
-  width: 100%;
-  height: 100%;
-  &:hover{
-    background-color: grey;
-  }
-  &:active{
-    background-color: darkgray;
+  justify-content: space-around;
+  button {
+    border: none;
+    &:hover {
+      background-color: grey;
+    }
+    &:active {
+      background-color: darkgray;
+    }
   }
 }
